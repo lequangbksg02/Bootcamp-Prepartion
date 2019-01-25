@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type = "number" max="31" min="1" id = "nhapngay" value = "ngay"> <br>
+    <input type = "number" max="12" min="1" id = "nhapthang" value = "thang"> <br>
+    <input type = "number" id = "nhapnam" value = "nhapnam">
+    <input type="submit" onclick="changeValue()">
+    <script>
+        class Date {
+            constructor (day, month, year) {
+                this._day = day;
+                this._month = month;
+                this._year = year;
+            }
+            info() {
+                return "Ngay" + this._day + "Thang" + this._month + "Nam" + this._year;
+            }
+            setDay (day) {
+                this._day = day;
+
+            }
+            setMonth (month) {
+                this._month = month;
+            }
+            setYear (year) {
+                this._year = year;
+            }
+        }
+        var myDate = new Date(2,2,2019);
+        function changeValue() {
+            alert(myDate.info());
+            ngaymoi = parseInt(document.getElementById("nhapngay").value);
+            myDate.setDay(ngaymoi);
+
+            alert(myDate.info());
+            thangmoi = parseInt(document.getElementById("nhapthang").value);
+            myDate.setMonth(thangmoi);
+
+
+            alert(myDate.info());
+            nammoi = parseInt(document.getElementById("nhapnam").value);
+            myDate.setYear(nammoi);
+
+            alert(myDate.info());
+        }
+
+    </script>
+</body>
+</html>
+

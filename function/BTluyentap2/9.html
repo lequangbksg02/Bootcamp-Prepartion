@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var n = (prompt("nhap"));
+        var user_array=["c","a","f"];
+
+        function  kiemtraKytu(arr,char) {
+            var count = 0;
+
+            for (let i=0;i<arr.length;i++) {
+                if (arr[i] === char)
+                    count++;
+            }
+
+            if (count===0){
+                count=-1;
+            }
+
+            return count;
+        }
+
+        var demKyTu = kiemtraKytu(user_array,n);
+
+        document.write("So lan xuat hien " + demKyTu);
+
+    </script>
+</body>
+</html>

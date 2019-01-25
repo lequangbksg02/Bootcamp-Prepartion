@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="txtValue"></input>
+<input type = "button" id = "btnAdd" value = "Add" onclick= "add_element_to_array();">
+<input type = "button" id = "btnDisplay" value = "Display" onclick = "display_array();"><br>
+<hr style="width: 268px;float: left;"><br/>
+<div id="result"></div>
+<script>
+    var arrayQuang = Array();
+    var x = 0;
+
+    function add_element_to_array() {
+        alert("Element " + x + " = " + document.getElementById("txtValue").value);
+        arrayQuang[x]=document.getElementById("txtValue").value;
+        x++;
+
+    }
+    function display_array() {
+        var e = "";
+
+        for (var i=0; i<arrayQuang.length; i++) {
+            e += "Element " + i + " = " + arrayQuang[i] + "<br/>";
+
+        }
+        document.getElementById("result").innerHTML = e;
+    }
+</script>
+</body>
+</html>

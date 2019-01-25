@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type = "submit" name = "" id = "nokia" value = "BatTatNokia" onclick="BatTat(this.value)">
+    <input type = "button" id = "thuden" onclick= "hopthuden()" value = "Hop  Thu Den">
+    <input type = "button" id = "thudi" onclick= "hopthudi()" value = "Hop Thu Di">
+
+
+    <input type = "submit" name = "" id = "iphone" value = "BatTatIphone">
+    <script>
+        class Mobile {
+            constructor(type, pin, status) {
+                this._type = type;
+                this._pin = pin;
+                this._status = status;
+                this._currentMessage = "";
+                this._inbox = [];
+                this._inboxSended = [];
+            }
+
+            isStatus() {
+                if (this._pin ===0 )
+                    this._status  = false;
+
+                if (this._status){
+                    alert("Dang ON");
+                } else {
+                    alert("Dang OFF");
+                }
+            }
+
+            batTatDienThoai() {
+                if (this._status) {
+                    this._satus = false;
+                } else {
+                    this._sattus = true;
+                }
+            }
+
+            xacDienThoai(){
+                while (this._pin<100){
+                    this._pin = this._pin +1;
+                }
+                alert("Da sac day");
+            }
+
+            soantinnhan(noidungtinnhan) {
+                this._currentMessage = noidungtinnhan;
+            }
+
+            nhantinnhan(noidungtinnhan, tu){
+                this._inbox.push(noidungtinnhan);
+            }
+
+            goitinnhan(noidungtinhan,den){
+                this._inboxSended.push(noidungtinnhan);
+                den._inbox.push(noidungtinhan);
+            }
+
+            xemtin(){
+                var tin= this._inbox.pop();
+                alert(tin);
+            }
+        }
+        var myNokia = new Mobile('Nokia',50,true);
+        var myIphone = new Mobile('Iphone X', 10, false);
+
+        //var object = document.getElementById("nokia");
+        //var object = document.getElementById("iphone");
+        function BatTat(value){
+            if(value === 'BatTatNokia') {
+                myNokia.batTatDienThoai();
+            }
+            myNokia.isStatus();
+        }
+
+        myNokia.batTatDienThoai();
+        //myIphone.isStatus();
+        //myIphone.batTatDienThoai();
+    </script>
+</body>
+</html>

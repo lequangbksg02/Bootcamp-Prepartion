@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Date {
+            constructor (day, month, year) {
+                this._day = day;
+                this._month = month;
+                this._year = year;
+            }
+            info() {
+                return "Ngay" + this._day + "Thang" + this._month + "Nam" + this._year;
+            }
+            setDay (day) {
+                this._day = day;
+
+            }
+            setMonth (month) {
+                this._month = month;
+            }
+        }
+        var myDate = new Date(2,2,2019);
+        alert(myDate._day);
+        myDate.setDay(10);
+        alert(myDate._month);
+        myDate.setMonth(5);
+        alert(myDate.info());
+
+    </script>
+</body>
+</html>

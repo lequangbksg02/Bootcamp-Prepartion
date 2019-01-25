@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var year = parseInt(prompt("Enter a year"));
+        if(year % 4 == 0) {//
+
+            if(year % 100 == 0) {
+
+
+                if(year % 400 == 0) {
+
+                    alert(year + " is a leap year");
+                } else {//chia hết cho 4, chia hết cho 100, nhưng không chia hết cho 400
+                    alert(year + " is NOT a leap year");
+                }
+            }
+
+            else {//chia hết cho 4 và không chia hết cho 100
+                alert(year + " is a leap year");
+            }
+        }
+
+        else {//Không chia hết cho 4 là năm không nhuận
+            alert(year + " is NOT a leap year");
+        }
+    </script>
+</body>
+</html>

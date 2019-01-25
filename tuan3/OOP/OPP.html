@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        class Date {
+            constructor (day, month, year) {
+                this._day = day;
+                this._month = month;
+                this._year = year;
+            }
+            info() {
+                return "Ngay" + this._day +"Thang" + this._month + "Nam" + this._year;
+            }
+
+            setDay (day) {
+                this._day = day;
+            }
+
+            setMonth (month) {
+                this._month = month;
+            }
+
+            setYear (year) {
+                this._year = year;
+            }
+        }
+
+        var myDate = new Date(2,2,2019);
+        var a = parseInt(prompt("nhap vao ngay thay doi"));
+        var b = parseInt(prompt("nhap vao thang thay doi"));
+        var c = parseInt(prompt("nhap vao nam thay doi"));
+        alert(myDate._day);
+        myDate.setDay(a);
+        alert(myDate._month);
+        myDate.setMonth(b);
+        alert(myDate._year);
+        myDate.setYear(c);
+        alert(myDate.info());
+    </script>
+</body>
+</html>

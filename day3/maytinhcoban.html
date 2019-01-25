@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<br><input type = "tex" id = "kq"></br>
+
+    <input type = "button" value = 1 id = "number1" onclick ="pheptinh(this.value)">
+    <input type = "button" value = 2 id = "number2" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 3 id = "number3" onclick = "pheptinh(this.value)">
+    <input type = "button" value = + id = "cong" onclick = "pheptinh(this.value)"><br>
+
+    <input type = "button" value = 4 id = "number4" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 5 id = "number5" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 6  id = "number6" onclick = "pheptinh(this.value)">
+    <input type = "button" value = - id = "tru" onclick = "pheptinh(this.value)"><br>
+
+    <input type = "button" value = 7 id = "number7" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 8 id = "number8" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 9 id = "number9" onclick = "pheptinh(this.value)">
+    <input type = "button" value = * id = "nhan" onclick = "pheptinh(this.value)"><br>
+
+    <input type = "button" value = C id = "numberC" onclick = "pheptinh(this.value)">
+    <input type = "button" value = 0 id = "number0" onclick = "pheptinh(this.value)">
+    <input type = "button" value = = id = "bang" onclick = "pheptinh(this.value)">
+    <input type = "button" value = / id = "chia" onclick = "pheptinh(this.value)">
+
+    <script>
+        function pheptinh(bien) {
+            if(bien != '=' && bien != 'C') {
+                kq = document.getElementById('kq').value;
+                if(kq == '0'){
+                    kq = "";
+                }
+                kq += bien;
+                document.getElementById('kq').value = kq;
+            } else {
+                document.getElementById('kq').value = eval(document.getElementById('kq').value);
+                if (bien != "C") {
+                    document.getElementById('kq').value = eval(document.getElementById('kq').value);
+                }
+                else {
+                    var kq = '0';
+                    document.getElementById('kq').value = kq;
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>

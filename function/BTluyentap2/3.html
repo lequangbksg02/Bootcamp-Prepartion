@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var n = parseInt(prompt("nhap so vao so n"));
+        function tinhGiaiThua(n) {
+            var giaithua=1;
+            for (var i = 1; i <= n; i++) {
+                giaithua = giaithua * i
+
+
+            }
+            return giaithua;
+        }
+        var kq = tinhGiaiThua(0);
+        document.write("ket qua la:" + kq);
+    </script>
+</body>
+</html>

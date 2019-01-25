@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+    var numbers = 20;
+    var n = 2;
+    var so_luong_so_nguyen_to_tim_duoc = 0;
+    while(so_luong_so_nguyen_to_tim_duoc < 20) {
+        if (n === 2 || n === 3 || n === 5 || n === 7 ) {
+            document.write(n);
+            document.write("<br>");
+            n++;
+            so_luong_so_nguyen_to_tim_duoc++;
+        } else {
+            if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0) {
+                n++;
+            } else {
+                document.write(n);
+                document.write("<br>");
+                n++;
+                so_luong_so_nguyen_to_tim_duoc++;
+            }
+        }
+    }
+    </script>
+</body>
+</html>

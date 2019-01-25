@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function minArr(arr) {
+            var min = arr[0];
+            for(var i=0;i<arr.length;i++){
+                if (min>arr[i]){
+                    min=arr[i];
+                }
+
+            }return min;
+        }
+
+        function minArr(arr) {
+            if(arr.length == 0)
+                return "mang rong";
+            var min = arr[0];
+            for(var i=1;i<arr.length;i++){
+                if(arr[i]<min){
+                    min = arr[i];
+
+                }
+            }
+            return min;
+        }
+         var A = [3,5,1,8,-3,7,8];
+        var result = minArr(A);
+        document.write(result);
+        document.write("<br/>");
+
+        var B = [];
+        var result= minArr(B);
+        document.write(result);
+        document.write("<br/>");
+
+        var C = [0, 0, 0, 0, 0, 0];
+        var result = minArr(C);
+        document.write(result);
+        document.write("<br/>");
+
+        var d = [7, 12, 6, 9, 20, 56, 89];
+        var result = minArr(d);
+        document.write(result);
+
+    </script>
+</body>
+</html>

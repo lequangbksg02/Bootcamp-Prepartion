@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<canvas id = "myCanvas" width= "1368px" height= "768px" style = "border: 5px solid #d3d3d3;"></canvas>
+
+<script>
+    class Circle {
+        constructor (x,y,radius,color){
+            this._x = x;
+            this._y = y;
+            this._radius = radius;
+            this._color = color;
+        }
+        createCircle(){
+            var ctx = document.getElementById("myCanvas").getContext("2d");
+
+            ctx.beginPath();
+            ctx.arc(this._x, this._y, this._radius, 0, 2 * Math.PI);
+            ctx.fill();
+        }
+    }
+
+    var myCircle = new Circle(120,120,80,"blue");
+    myCircle.createCircle();
+
+</script>
+
+</body>
+</html>
+
+
+class Circle {
+constructor (x,y,radius,color){
+this._x = x;
+this._y = y;
+this._radius = radius;
+this._color = color;
+}
+createCircle(){
+var ctx = document.getElementById("myCanvas").getContext("2d");
+var radius = Math.floor(Math.random() * 80);
+ctx.beginPath();
+ctx.arc(Math.floor(Math.random() * 80), Math.floor(Math.random() * 80), Math.floor(Math.random() * 80), 0, 2 * Math.PI);
+ctx.fill();
+}
+}
+
+var myCircle = new Circle(Math.random() * 80,Math.random() * 80,Math.random() * 80,"blue");
+myCircle.createCircle();

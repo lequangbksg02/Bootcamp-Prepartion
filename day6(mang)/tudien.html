@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type = "text" id = "in">
+    <input type = "button" value="Dich" onclick = "a()">
+    <p id = "out"></p></br>
+    <script>
+        function a(){
+            var value = document.getElementById("in").value;
+            var english = ["hello","how","evening","son"];
+            var vietnam = ["chao","tuynhien","toi","contrai"];
+
+            for(var i=0;i<english.length;i++){
+                if (value == english[i]){
+                    document.getElementById("out").innerHTML = vietnam[i];
+                    break;
+                }
+            }
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Temperature {
+            constructor(C,F,K){
+                this._C = C;
+                this._F = F;
+                this._K = K;
+            }
+            getconvert1() {
+                return (this._C*1.8 + 32);
+            }
+            getconvert2 () {
+                return (this._C + 273.15);
+            }
+        }
+        var myTemperature = new Temperature(60);
+        myTemperature.getconvert1();
+        myTemperature.getconvert2();
+        alert("chuyen tu do C sang do F:" + " " +  myTemperature.getconvert1());
+        alert("chuyen tu do C sang do K:" + " " + myTemperature.getconvert2());
+    </script>
+</body>
+</html>

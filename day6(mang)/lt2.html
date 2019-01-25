@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var songuyen = [1,20,12,32,35,74,9,56,51,64];
+    var max =songuyen[0];
+    var index = 0;
+    for (i=0;i<songuyen.length;i++) {
+        if (max<songuyen[i]) {
+            max = songuyen[i];
+            index = i;
+        }
+    }
+    document.write("max =" + max + " " + "nam o vi tri" +" " + index);
+</script>
+
+</body>
+</html>

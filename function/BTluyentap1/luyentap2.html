@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ /*tao ham nhan vao 1 doi so dang so,tang gia tri doi so do len 1 va tra  lai gtri loi goi ham.goi ham va hien thi kq*/
+<input type = "text" id = "nhapso">
+<input type = "button" id = "so" value = "doi" onclick = "nhanDoiSo()">
+    <script>
+        function myFunction(i){
+            ++i;
+         return (i)   ;
+        }
+
+
+        function nhanDoiSo() {
+            var so = document.getElementById("nhapso").value;
+            var doiso = myFunction(so);
+
+            alert(doiso);
+
+        }
+    </script>
+
+
+
+</body>
+</html>

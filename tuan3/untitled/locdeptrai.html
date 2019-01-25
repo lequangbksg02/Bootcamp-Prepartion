@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="power" ></p>
+
+<input type="submit" id="onoff" value="Bat/Tat Den " onclick="onoff()">
+<input type="submit" id="noiday" value="NoiDay" onclick="noiday()">
+<script>
+
+    class lamp {
+        constructor (status,phichcam) {
+            this._status = status;
+            this.phichcam = phichcam;
+        }
+        noidaystatus(){
+            return this.phichcam;
+        }
+        daystatus (){
+            if (this.phichcam) {
+                alert("đã cắm dây");
+            } else {
+                alert("đã rút dây");
+            }
+        }
+        setday (){
+            if (this.phichcam) {
+                this.phichcam= false;
+            } else {
+                this.phichcam = true;
+            }
+        }
+        statuslamp (){
+            if(this._status) {
+                alert("den bat")
+            } else {
+                alert("den tat")
+            }
+        }
+        changedaystatus (){
+            if (this._status) {
+                this._status = false;
+            } else  {
+                this._status = true;
+            }
+        }
+    }
+    var denpin = new lamp(false,false);
+    function noiday() {
+        denpin.setday();
+        denpin.daystatus();
+    }
+    function onoff() {
+        if (denpin.noidaystatus()) {
+            denpin.changedaystatus();
+            denpin.statuslamp();
+
+        } else {
+            denpin.daystatus();
+        }
+
+    }
+</script>
+</body>
+</html>

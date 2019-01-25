@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+                <input type="number" id="a"/>
+                <input type="number" id="b"/><br>
+                <input type="submit" style="background: white" onclick="Addition();" value="Addition(+)"/>
+                <input type="submit" style="background: white" onclick="Subtraction();" value="Subtraction(-)"/>
+                <input type="submit" style="background: white" onclick="Multiplication();" value="Multiplication(X)"/>
+                <input type="submit" style="background: white" onclick="Division();" value="Division(/)"/><br>
+
+
+                <td>Resual : <a id="resualid"></a></td>
+
+<script>
+
+    function Addition() {
+        var geta = parseInt(document.getElementById("a").value);
+        var getb = parseInt(document.getElementById("b").value);
+        var resual = geta + getb;
+
+        document.getElementById("resualid").innerText = ""+resual;
+    }
+    function Subtraction () {
+        var geta = parseInt(document.getElementById("a").value);
+        var getb = parseInt(document.getElementById("b").value);
+        var resual = geta - getb;
+
+        document.getElementById("resualid").innerText = ""+resual;
+    }
+
+    function Multiplication () {
+        var geta = parseInt(document.getElementById("a").value);
+        var getb = parseInt(document.getElementById("b").value);
+        var resual = geta * getb;
+
+        document.getElementById("resualid").innerText = ""+resual;
+    }
+
+    function Division () {
+        var geta = parseInt(document.getElementById("a").value);
+        var getb = parseInt(document.getElementById("b").value);
+        var resual = geta / getb;
+        if (getb!=0) {
+            document.getElementById("resualid").innerText = ""+resual;
+        }
+        else {
+            document.getElementById("resualid").innerText = "b khong duoc bang 0";
+        }
+    }
+
+</script>
+
+</body>
+</html>

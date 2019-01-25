@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <canvas id = "myCanvas" width= "1368px" height= "768px" style = "border: 5px solid red;"></canvas>
+
+    <script>
+       class Circle{
+           constructor(PositionX,PositionY,Radius) {
+               this._PositionX = PositionX;
+               this._PositionY = PositionY;
+               this._Radius = Radius;
+               this._color = "blue";
+               this.ctx = document.getElementById("myCanvas").getContext("2d");
+           }
+
+           randomRadius() {
+               this._Radius =  Math.floor(Math.random() * 80);
+           }
+            radomcolor () {
+               var red = Math.floor(Math.random()*255);
+               var green = Math.floor(Math.random()*255);
+               var blue = Math.floor(Math.random()*255);
+               this._color = "rgb(" + red + "," + blue + "," + green + ")";
+            }
+           createCirclemoi() {
+
+               this.ctx.beginPath();
+               this.ctx.fillStyle = this._color;
+               this.ctx.arc(this._PositionX, this._PositionY, this._Radius, 0, 2*Math.PI);
+               this.ctx.fill();
+
+           }
+           randomPosition() {
+               this._PositionX =  Math.random() * window.innerWidth;
+               this._PositionY =  Math.random() * window.innerWidth;
+           }
+
+           reset() {
+               this.ctx.clearRect(0, 0, 1368, 768);
+           }
+       }
+       var myCircle1 = new Circle(520, 320, 80);
+       myCircle1.randomRadius();
+       myCircle1.radomcolor ();
+       myCircle1.randomPosition();
+       //myCircle.reset();
+       myCircle1.createCirclemoi();
+
+
+       var myCircle2 = new Circle(920, 720, 120);
+       myCircle2.randomRadius();
+       myCircle2.radomcolor ();
+       myCircle2.randomPosition();
+       //myCircle2.reset();
+       myCircle2.createCirclemoi();
+
+
+       function draw() {
+           myCircle2.reset();
+
+           myCircle1.randomRadius();
+           myCircle1.radomcolor ();
+           myCircle1.randomPosition();
+           // myCircle.reset();
+           myCircle1.createCirclemoi();
+
+
+
+           myCircle2.randomRadius();
+           myCircle2.radomcolor ();
+           myCircle2.randomPosition();
+           // myCircle.reset();
+           myCircle2.createCirclemoi();
+
+       } setInterval(draw,50);
+
+    </script>
+</body>
+</html>

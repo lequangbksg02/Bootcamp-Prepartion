@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+<table>
+    <tr>
+        <th>Nhập số</th>
+        <th>Form: </th>
+        <th>To: </th>
+        <th>Action</th>
+        <th>Result </th>
+    </tr>
+    <tr>
+        <td><input id="kq"></td>
+        <td>
+            <select id="chuyendoi">
+                <option  value="3.279"> Foot</option>
+                <option value="0.305">Meter</option>
+            </select>
+        </td>
+        <td><select id="chuyenve">
+            <option value="0.305" >Meter</option>
+            <option  value="3.279"> Foot</option>
+        </select>
+        </td>
+
+        <td><input type="button" id="demo" value="Conver" onclick="chuyen()">
+        </td>
+        <td><input type="text" id="result" placeholder="Kết quả là: " ></td>
+    </tr>
+</table>
+
+<script>
+    function chuyen() {
+        var nhapvao=parseInt(document.getElementById("kq") .value);
+        var giatriOChuyenDoi = document.getElementById("chuyendoi") .value;
+        var giatriOChuyenVe = document.getElementById("chuyenve").value;
+
+        if (giatriOChuyenDoi === giatriOChuyenVe)
+            document.getElementById("result").value = "ket qua la:" + nhapvao;
+        else{
+            var giatri = nhapvao * 1 * giatriOChuyenVe ;
+            document.getElementById("result").value = "ket qua la:" + giatri;
+        }
+    }
+</script>
+
+</body>
+</html>

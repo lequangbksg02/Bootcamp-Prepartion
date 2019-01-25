@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div align="center" >
+        <img width="304" height="79" name="anh1" onclick="doianh(1)" src="anh/1.jpg"><br>
+        <img width="304" height="79" name="anh2" onclick="doianh(2)" src="anh/4.jpg"><br>
+        <img width="304" height="79" name="anh3" onclick="doianh(3)" src="anh/7.jpg"><br>
+        <img width="304" height="79" name="anh4" onclick="doianh(4)" src="anh/10.jpg"><br>
+        <img width="304" height="79" name="anh5" onclick="doianh(5)" src="anh/13.jpg"><br>
+    </div>
+</body>
+<script>
+    function doianh(a) {
+        switch (a) {
+            case 1:
+                document.anh1.src = "anh/"+Math.floor(Math.random()*3+1)+".jpg";
+                break;
+            case 2:
+                document.anh2.src = "anh/"+Math.floor(Math.random()*3+4)+".jpg";
+                break;
+            case 3:
+                document.anh3.src = "anh/"+Math.floor(Math.random()*3+7)+".jpg";
+                break;
+            case 4:
+                document.anh4.src = "anh/"+Math.floor(Math.random()*3+10)+".jpg";
+                break;
+            case 5:
+                document.anh5.src = "anh/"+Math.floor(Math.random()*3+13)+".jpg";
+                break;
+
+        }
+    }
+    if(setFlag) {
+        document.getElementById("1").style.boxShadow="";
+        document.getElementById("4").style.boxShadow="";
+        document.getElementById("7").style.boxShadow="";
+        document.getElementById("10").style.boxShadow="";
+        document.getElementById("13").style.boxShadow="";
+    else {
+            document.getElementById("1").style.boxShadow="10px 20px 30px";
+            document.getElementById("4").style.boxShadow="10px 20px 30px";
+            document.getElementById("7").style.boxShadow="10px 20px 30px";
+            document.getElementById("10").style.boxShadow="10px 20px 30px";
+            document.getElementById("13").style.boxShadow="10px 20px 30px";
+
+
+
+</script>
+</html>

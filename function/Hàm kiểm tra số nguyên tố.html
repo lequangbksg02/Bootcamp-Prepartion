@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        var number = parseInt(prompt("intnumber"));
+
+        isPrime(number);
+
+        function isPrime(intnumber){
+            //var intnumber = parseInt(document.getElementById("intnumber").value);
+            switch (intnumber) {
+                case 2:
+                case 3:
+                case 5:
+                case 7:
+                    document.write("so nguyen to");
+                    break;
+                default:
+                    if(intnumber%2!=0&&intnumber%3!=0&&intnumber%5!=0&&intnumber%7!=0)
+                        document.write("songuyento");
+                    else
+                        document.write("khong songuyento");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

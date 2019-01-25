@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e620ac56-8c78-47cd-b4d7-810f97881a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../OOP/OPP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap1/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap1/BTLT2_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap1/lt4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap1/lt5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap1/lt_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/BTLT2_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/OPP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/lt4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/lt6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/BTluyentap2/lt_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/lt4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function/lt5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locdeptrai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile_thamkhao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobilemoinhatthaykhanh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-Funny circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opp-hinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picachu/objects/aaa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picachu/objects/chinhsua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rectango.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tap su.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/LUYENTAP_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/LUYENTAP_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/Maytinhdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/Maytinhdongian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5(vonglap)/Chuyển đổi nhiệt độ.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day5(vonglap)/Chuyển đổi nhiệt độ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5(vonglap)/Sửdụngcáchàmcósẵncủamảng_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day5(vonglap)/Sửdụngcáchàmcósẵncủamảng_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5(vonglap)/Tạo và gọi hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day5(vonglap)/Tạo và gọi hàm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5(vonglap)/tudien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../function/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../function/Chuyển đổi giữa feet và meters.html" beforeDir="false" afterPath="$PROJECT_DIR$/../function/Chuyển đổi giữa feet và meters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picachu/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/picachu/objects/script.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/picachu/objects/aaa.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="561">
+                    <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+                    <folding>
+                      <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/picachu/objects/chinhsua.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/picachu/objects" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/opp-hinhtron.html" />
+        <option value="$PROJECT_DIR$/tap su.html" />
+        <option value="$PROJECT_DIR$/rectango.html" />
+        <option value="$PROJECT_DIR$/chuyendoi.html" />
+        <option value="$PROJECT_DIR$/chuyen doi do nhap.html" />
+        <option value="$PROJECT_DIR$/mobile_thamkhao.html" />
+        <option value="$PROJECT_DIR$/dienthoai.html" />
+        <option value="$PROJECT_DIR$/mobilemoinhatthaykhanh.html" />
+        <option value="$PROJECT_DIR$/locdeptrai.html" />
+        <option value="$PROJECT_DIR$/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html" />
+        <option value="$PROJECT_DIR$/oop-Funny circles.html" />
+        <option value="$PROJECT_DIR$/nhap.html" />
+        <option value="$PROJECT_DIR$/picachu/objects/script.js" />
+        <option value="$PROJECT_DIR$/picachu/objects/chinhsua.html" />
+        <option value="$PROJECT_DIR$/picachu/objects/aaa.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-330" />
+    <option name="y" value="43" />
+    <option name="width" value="1403" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="bongden" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BT2\KHAIBAOBIEN\GitProject2\untitled" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e620ac56-8c78-47cd-b4d7-810f97881a97" name="Default Changelist" comment="" />
+      <created>1548126553094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548126553094</updated>
+      <workItem from="1548126556047" duration="19956000" />
+      <workItem from="1548152438306" duration="605000" />
+      <workItem from="1548171323525" duration="5035000" />
+      <workItem from="1548212330511" duration="14117000" />
+      <workItem from="1548294235611" duration="220000" />
+      <workItem from="1548294594603" duration="10965000" />
+      <workItem from="1548311529128" duration="17430000" />
+      <workItem from="1548383796458" duration="17909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="86237000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-330" y="43" width="1403" height="1009" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24926254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tap su.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" selection-end-column="91" />
+          <folding>
+            <element signature="e#164#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chuyen doi do nhap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chuyendoi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rectango.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opp-hinhtron.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_thamkhao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dienthoai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobilemoinhatthaykhanh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locdeptrai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day5(vonglap)/gamepuzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bong den/pic_bulboff.gif.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bong den/pic_bulbon.gif.url">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picachu/objects/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picachu/objects/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop-Funny circles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picachu/objects/chinhsua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picachu/objects/aaa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

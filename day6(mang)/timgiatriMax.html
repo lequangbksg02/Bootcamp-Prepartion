@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var arrayNumber = [1,34,30,45,12,78];
+        var max = arrayNumber[0];
+        var index = 0;
+        for(var i=0;i<arrayNumber.length; i++){
+            if( max < arrayNumber[i]){
+                max = arrayNumber[i];
+                index = i;
+            }
+        }
+        document.write("max =" + max + " " + "nam o vi tri" +" " + index);
+    </script>
+</body>
+</html>

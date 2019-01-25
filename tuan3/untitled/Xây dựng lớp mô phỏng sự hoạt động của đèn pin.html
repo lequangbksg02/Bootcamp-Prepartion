@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<img id="myImage" onclick="OnOffLight()" src="bongden/lampon.png" height="450" width="279"/>
+    <script>
+        class Battery {
+            constructor(enegry) {
+                this.enegry = enegry;
+            }
+            decreaseEnergy (){
+                this.enegry -=1;
+                alert(this.enegry);
+            }
+        }
+        class FlashLamp {
+            constructor(_status, _battery) {
+                this.status = _status;
+                this.battery = _battery;
+            }
+            turnOn(){
+                this.status = true;
+            }
+            turnOff() {
+                this.status = false;
+            }
+            light () {
+                if(this.status) {
+                    document.getElementById("myImage").src = 'bongden/lampon.png';
+                }else{
+                    document.getElementById("myImage").src = 'bongden/lampoff.png';
+                }
+            }
+        }
+
+        var myBattery = new Battery(20);
+        var myFlashLamp = new FlashLamp(true, myBattery);
+
+        function OnOffLight() {
+            if(myFlashLamp.status) {
+                myFlashLamp.turnOff();
+                myFlashLamp.light();
+            }else {
+                if(myFlashLamp.battery.enegry > 0) {
+                    myFlashLamp.turnOn();
+                    myFlashLamp.light();
+                    myFlashLamp.battery.decreaseEnergy();
+                }else{
+                    alert("Het pin roi dem sac di");
+
+                }
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>
